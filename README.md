@@ -75,10 +75,10 @@
                 <div class="product-card rounded-lg overflow-hidden p-6">
                     <div class="product-image mb-4">
                         <img src="![image](https://github.com/user-attachments/assets/1e186bb6-ebec-46f6-b8b3-b064b6678361)
-" alt="Anel em prata 925 com detalhe em zircônia, fundo preto" class="w-full h-64 object-cover rounded" />
+" alt="![image](https://github.com/user-attachments/assets/7f349517-8c98-4e85-bcb1-c7f33ca60ec7)" />
                     </div>
-                    <h4 class="title-font text-xl mb-2">Anel Luna</h4>
-                    <p class="text-gray-300 mb-4 price hidden">R$ 35,00</p>
+                    <h4 class="title-font text-xl mb-2">Argolinha zircônia</h4>
+                    <p class="text-gray-300 mb-4 price hidden">R$ 39,90</p>
                     <button class="view-price-btn w-full py-2 bg-gray-800 hover:bg-gray-700 rounded transition">
                         Cadastre-se para ver preço
                     </button>
