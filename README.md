@@ -1,4 +1,4 @@
-# Gota Azul Pratas
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -61,7 +61,7 @@
     <header class="relative h-96 flex items-center justify-center bg-gradient-to-r from-gray-900 to-blue-900">
         <div class="text-center px-4 z-10">
             <h2 class="title-font text-4xl md:text-6xl mb-4">Prata que Inspira</h2>
-            <p class="text-xl max-w-2xl mx-auto">Descubra nossas peças em prata 925</p>
+            <p class="text-xl max-w-2xl mx-auto">Descubra nossas exclusivas peças em prata 925 com acabamento impecável</p>
         </div>
         <div class="absolute inset-0 bg-black opacity-30"></div>
     </header>
@@ -78,7 +78,7 @@
                         <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/64c7dbd6-fbe4-4d97-a83a-84afc92dee94.png" alt="Anel em prata 925 com detalhe em zircônia, fundo preto" class="w-full h-64 object-cover rounded" />
                     </div>
                     <h4 class="title-font text-xl mb-2">Anel Luna</h4>
-                    <p class="text-gray-300 mb-4">Prata 925 com zircônia</p>
+                    <p class="text-gray-300 mb-4 price hidden">R$ 35,00</p>
                     <button class="view-price-btn w-full py-2 bg-gray-800 hover:bg-gray-700 rounded transition">
                         Cadastre-se para ver preço
                     </button>
@@ -90,7 +90,7 @@
                         <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e6095186-991f-4ec1-a0d4-2aa3c102ba11.png" alt="Pulseira em prata entrelaçada com pingente, fundo azul escuro" class="w-full h-64 object-cover rounded" />
                     </div>
                     <h4 class="title-font text-xl mb-2">Pulseira Oceano</h4>
-                    <p class="text-gray-300 mb-4">Prata 925 entrelaçada</p>
+                    <p class="text-gray-300 mb-4 price hidden">R$ 35,00</p>
                     <button class="view-price-btn w-full py-2 bg-gray-800 hover:bg-gray-700 rounded transition">
                         Cadastre-se para ver preço
                     </button>
@@ -102,7 +102,7 @@
                         <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/728fea6e-88d5-48ac-9b93-8c5662aa5479.png" alt="Colar em prata com pedra azul safira em fundo branco" class="w-full h-64 object-cover rounded" />
                     </div>
                     <h4 class="title-font text-xl mb-2">Colar Safira</h4>
-                    <p class="text-gray-300 mb-4">Prata 925 com safira</p>
+                    <p class="text-gray-300 mb-4 price hidden">R$ 35,00</p>
                     <button class="view-price-btn w-full py-2 bg-gray-800 hover:bg-gray-700 rounded transition">
                         Cadastre-se para ver preço
                     </button>
@@ -176,6 +176,7 @@
         const loginForm = document.getElementById('loginForm');
         const registerForm = document.getElementById('registerForm');
         const viewPriceBtns = document.querySelectorAll('.view-price-btn');
+        const prices = document.querySelectorAll('.price');
 
         // Show login modal
         loginBtn.addEventListener('click', () => {
@@ -218,7 +219,7 @@
             });
         });
 
-        // Form submission
+        // Form submission for login
         loginForm.addEventListener('submit', (e) => {
             e.preventDefault();
             const email = document.getElementById('email').value;
@@ -227,8 +228,14 @@
             // Simulate login (in a real app, you would send this to a server)
             alert(`Login realizado com sucesso!\nE-mail: ${email}`);
             loginModal.classList.add('hidden');
+
+            // Show prices after login
+            prices.forEach(price => {
+                price.classList.remove('hidden');
+            });
         });
 
+        // Form submission for registration
         registerForm.addEventListener('submit', (e) => {
             e.preventDefault();
             const email = document.getElementById('regEmail').value;
@@ -248,3 +255,4 @@
     </script>
 </body>
 </html>
+
