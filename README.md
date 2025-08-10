@@ -74,7 +74,8 @@
                 <!-- Product 1 -->
                 <div class="product-card rounded-lg overflow-hidden p-6">
                     <div class="product-image mb-4">
-                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/64c7dbd6-fbe4-4d97-a83a-84afc92dee94.png" alt="Anel em prata 925 com detalhe em zircônia, fundo preto" class="w-full h-64 object-cover rounded" />
+                        <img src="![image](https://github.com/user-attachments/assets/1e186bb6-ebec-46f6-b8b3-b064b6678361)
+" alt="Anel em prata 925 com detalhe em zircônia, fundo preto" class="w-full h-64 object-cover rounded" />
                     </div>
                     <h4 class="title-font text-xl mb-2">Anel Luna</h4>
                     <p class="text-gray-300 mb-4 price hidden">R$ 35,00</p>
