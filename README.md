@@ -1,7 +1,4 @@
-# Gota-Azul-Pratas
-`Gota-Azul-Catálogo.html`
-```html
-<!DOCTYPE html>
+# Gota Azul Pratas
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -64,7 +61,7 @@
     <header class="relative h-96 flex items-center justify-center bg-gradient-to-r from-gray-900 to-blue-900">
         <div class="text-center px-4 z-10">
             <h2 class="title-font text-4xl md:text-6xl mb-4">Prata que Inspira</h2>
-            <p class="text-xl max-w-2xl mx-auto">Descubra nossas exclusivas peças em prata 925 com acabamento impecável</p>
+            <p class="text-xl max-w-2xl mx-auto">Descubra nossas exclusivas peças em prata 925</p>
         </div>
         <div class="absolute inset-0 bg-black opacity-30"></div>
     </header>
